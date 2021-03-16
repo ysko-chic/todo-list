@@ -27,11 +27,11 @@ class App extends Component {
     console.log("componentDidMount");
   }
 
-  shouldComponentUpdate(nextProps, nextState) {
-    console.log("shouldComponentUpdate");
-    if (this.id % 3 === 0) return false;
-    return true;
-  }
+  // shouldComponentUpdate(nextProps, nextState) {
+  //   console.log("shouldComponentUpdate");
+  //   if (this.id % 3 === 0) return false;
+  //   return true;
+  // }
 
   componentDidUpdate(prevProps, prevState) {
     console.log("componenetDidUpdate");
